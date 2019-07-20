@@ -1,12 +1,13 @@
 import React from 'react';
+import { avatar } from '../static/avatar'
 
-export default function AboutBar(props){
+export default function AboutBar(){
     return(
         <React.Fragment className="container-fluid bg-dark">
             <img 
-                href={props.href} 
-                alt={props.alt}
-                className="float-right"
+                href={avatar} 
+                alt="Me"
+                className="float-left"
             />
         </React.Fragment>
     )

@@ -6,10 +6,7 @@ export default function App() {
   return (
     <React.Fragment>
       <Heading title='Katy Mollenkopf' />
-      <AboutBar
-        href='../static/avatar'
-        alt='A photo of me'
-      />
+      <AboutBar />
     </React.Fragment>
   );
 }
