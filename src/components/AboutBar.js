@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutText from '../static/text'
+import aboutText from '../static/data'
 
 export default function AboutBar(){
     return(
