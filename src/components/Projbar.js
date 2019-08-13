@@ -6,7 +6,7 @@ export default function Projbar(props){
         <div className="container-fluid">
             <h2>{props.title}</h2>
             <div className = "row">
-                <Project 
+                <Project showModal={props.showModal} setShowModal={props.setShowModal}
                     title="Project 1"
                     img={require("../static/avatar.jpg")}
                     shortDesc="Placeholder description goes here."
