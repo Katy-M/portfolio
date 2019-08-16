@@ -1,0 +1,18 @@
+*{
+    padding: 3px;
+}
+
+.custom-footer{
+    width: 100%;
+    margin: 0%;
+    text-decoration: none;
+}
+.custom-footer ul li{
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .custom-footer{
+        position: static;
+    }
+}

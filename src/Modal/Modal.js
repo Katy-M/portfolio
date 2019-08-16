@@ -1,5 +1,5 @@
 // https://levelup.gitconnected.com/how-to-create-an-accessible-react-modal-5b87e6a27503
-import React, {createContext, useContext}from "react";
+import React, {createContext, useContext, useEffect}from "react";
 import { createPortal } from "react-dom";
 
 import "./modalStyle.css";
@@ -7,6 +7,16 @@ import "./modalStyle.css";
 const modalContext = createContext();
 
 export default function Modal({ children, onModalClose }) {
+  useEffect(() => {
+    function keyListener(e) {
+      if (e.keyCode === 27) {
+        onModalClose();
+      }
+    }
+    document.addEventListener("keydown", keyListener);
+    return () => document.removeEventListener("keydown", keyListener);
+  });
+
   return createPortal(
     <div className="modal-container" role="dialog" aria-modal="true">
       <div className="modal-content">
