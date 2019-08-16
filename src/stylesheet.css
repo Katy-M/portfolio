@@ -1,18 +1,29 @@
 *{
-    padding: 3px;
+    padding: 0.1%;
+    color: #ffffff;
 }
-
+body{
+    background-color: #1d1d1d;
+}
+.custom-header, .custom-footer{
+    background-color: #1d1d1d;
+}
+.projbar{
+    background-color: #3d3d3d;
+    border-top: 2px solid #be0000;
+}
+.project{
+    background-color: #000000;
+    border: 1px solid #000000;
+    margin: 1%;
+    margin-top: 0%;
+}
+.aboutbar{
+    background-color: #2b2b2b;
+}
 .custom-footer{
-    width: 100%;
-    margin: 0%;
     text-decoration: none;
 }
 .custom-footer ul li{
     list-style-type: none;
-}
-
-@media only screen and (max-width: 992px) {
-    .custom-footer{
-        position: static;
-    }
 }

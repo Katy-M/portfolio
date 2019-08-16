@@ -5,7 +5,7 @@ import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 export default function Footer(){
     return(
         <div className="row justify-content-center">
-            <footer className="footer fixed-bottom bg-dark custom-footer col-lg-12">
+            <footer className="footer custom-footer col-lg-12">
                 <ul className="row justify-content-center text-center container-fluid">
                     <li className="col-lg-2 col-md-2 col-sm-2"><a href="https://forms.gle/h3kuSmZ7nHFz4txHA">Contact</a></li>
                     <li className="col-lg-2 col-md-2 col-sm-2">

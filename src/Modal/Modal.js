@@ -13,6 +13,7 @@ export default function Modal({ children, onModalClose }) {
         onModalClose();
       }
     }
+    
     document.addEventListener("keydown", keyListener);
     return () => document.removeEventListener("keydown", keyListener);
   });

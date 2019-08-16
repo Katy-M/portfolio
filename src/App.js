@@ -9,6 +9,7 @@ export default function App() {
       <div>
         <Heading title='Katy Mollenkopf' />
         <Projbar title="Bar 1"/>
+        <Projbar title="Bar 2"/>
         <AboutBar />
         <Footer />
       </div>

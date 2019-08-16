@@ -8,8 +8,8 @@ export default function Project(props){
     return(
         <React.Fragment>
             <button
-                className="col-lg-4 justify-content-center text-center
-                            col-md-6"
+                className="col-lg-3 justify-content-center text-center
+                            col-md-8 col-sm-9 col-11 project"
                 onClick={(() => setShowModal(!showModal))}>
                     <h3>{props.title}</h3>
                     <img src={props.img} alt="Project"></img>
