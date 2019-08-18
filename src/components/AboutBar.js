@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutText from '../static/data'
+import data from '../static/data'
 
 export default function AboutBar(){
     return(
@@ -13,7 +13,7 @@ export default function AboutBar(){
                 />
                 </div>
                 <div className="col-lg-8 col-md-8 float-left">
-                    <p className="text-left">{aboutText}</p>
+                    <p className="text-left">{data.aboutText}</p>
                 </div>
             </div>
         </React.Fragment>
