@@ -25,6 +25,9 @@ export default function Footer(){
                     </li>
                     <li className="col-lg-2 col-md-2 col-sm-2"><a href={require("../static/resume.pdf")}>Résumé</a></li>
                 </ul>
+                <p id="copyright" className="row justify-content-center text-center container-fluid"><small>
+                        &copy; Katy Mollenkopf.
+                </small></p>
             </footer>
         </div>
     )
