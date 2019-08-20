@@ -22,7 +22,7 @@ export default function Project(props){
                     <img src={props.img} alt="Project"></img>
                     <p>{props.fullDesc}</p>
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer link={props.link} linkText={props.linkText}>
                     <Modal.Footer.CloseBtn>Close</Modal.Footer.CloseBtn>
                 </Modal.Footer>
             </Modal>

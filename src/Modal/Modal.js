@@ -2,7 +2,9 @@
 import React, {createContext, useContext, useEffect}from "react";
 import { createPortal } from "react-dom";
 
-import "./modalStyle.css";
+import "../stylesheet.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const modalContext = createContext();
 
@@ -48,17 +50,28 @@ Modal.Body = function ModalBody(props) {
 };
 
 Modal.Footer = function ModalFooter(props) {
-  return <div className="modal-footer">{props.children}</div>;
+  return (
+    <div className="modal-footer">
+      <div className="row justify-content-center container-fluid align-bottom">
+        <div id="link" className="col-lg-6 col-md-6 col-sm-6 col-7">
+          <FontAwesomeIcon icon={faArrowRight} id="icon"/>
+          <a href={props.link}>{props.linkText}</a>
+        </div>
+        <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
+        {props.children}
+      </div>
+    </div>
+  );
 };
 
 Modal.Footer.CloseBtn = function CloseBtn(props) {
   const { onModalClose } = useContext(modalContext);
   return (
-    <button
-      {...props}
-      className="close-btn"
-      title="close modal"
-      onClick={onModalClose}
-    />
+      <button
+        {...props}
+        className="close-btn col-lg-2 col-md-2 col-sm-2 col-3"
+        title="close modal"
+        onClick={onModalClose}
+      />
   );
 };
