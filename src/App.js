@@ -9,8 +9,8 @@ export default function App() {
     return (
       <div>
         <Heading title='Katy Mollenkopf' />
-        <Projbar title="Bar 1" projects={data.topbarProjects}/>
-        <Projbar title="Bar 2" projects={data.midbarProjects}/>
+        <Projbar title={data.topbarTitle} projects={data.topbarProjects}/>
+        <Projbar title={data.midbarTitle} projects={data.midbarProjects}/>
         <AboutBar />
         <Footer />
       </div>

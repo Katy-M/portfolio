@@ -1,7 +1,6 @@
 // https://levelup.gitconnected.com/how-to-create-an-accessible-react-modal-5b87e6a27503
 import React, {createContext, useContext, useEffect}from "react";
 import { createPortal } from "react-dom";
-
 import "../stylesheet.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
