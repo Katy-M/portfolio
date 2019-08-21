@@ -52,11 +52,14 @@ Modal.Footer = function ModalFooter(props) {
   return (
     <div className="modal-footer">
       <div className="row justify-content-center container-fluid align-bottom">
-        <div id="link" className="col-lg-6 col-md-6 col-sm-6 col-7">
-          <FontAwesomeIcon icon={faArrowRight} id="icon"/>
+        <div className="col-lg-5 col-md-5 col-sm-5 col-6 link">
+          <FontAwesomeIcon icon={faArrowRight} className="icon"/>
           <a href={props.link}>{props.linkText}</a>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-4 col-2"></div>
+        <div className="col-lg-5 col-md-5 col-sm-5 col-6 link">
+          <FontAwesomeIcon icon={faArrowRight} className="icon"/>
+          <a href={props.link2}>{props.link2Text}</a>
+        </div>
         {props.children}
       </div>
     </div>

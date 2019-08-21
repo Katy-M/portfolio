@@ -28,7 +28,11 @@ export default function Project(props){
                     </iframe>
                     <p>{props.fullDesc}</p>
                 </Modal.Body>
-                <Modal.Footer link={props.link} linkText={props.linkText}>
+                <Modal.Footer
+                link={props.link}
+                linkText={props.linkText}
+                link2={props.link2}
+                link2Text={props.link2Text}>
                     <Modal.Footer.CloseBtn>Close</Modal.Footer.CloseBtn>
                 </Modal.Footer>
             </Modal>
