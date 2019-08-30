@@ -49,17 +49,23 @@ Modal.Body = function ModalBody(props) {
 };
 
 Modal.Footer = function ModalFooter(props) {
+  const link1 = props.link ?
+  <div className="col-lg-5 col-md-5 col-sm-5 col-6 link">
+    <FontAwesomeIcon icon={faArrowRight} className="icon"/>
+    <a href={props.link}>{props.linkText}</a>
+  </div> : <React.Fragment/>;
+
+  const link2 = props.link2 ?
+  <div className="col-lg-5 col-md-5 col-sm-5 col-6 link">
+    <FontAwesomeIcon icon={faArrowRight} className="icon"/>
+    <a href={props.link2}>{props.link2Text}</a>
+  </div> : <React.Fragment/>
+
   return (
     <div className="modal-footer">
       <div className="row justify-content-center container-fluid align-bottom">
-        <div className="col-lg-5 col-md-5 col-sm-5 col-6 link">
-          <FontAwesomeIcon icon={faArrowRight} className="icon"/>
-          <a href={props.link}>{props.linkText}</a>
-        </div>
-        <div className="col-lg-5 col-md-5 col-sm-5 col-6 link">
-          <FontAwesomeIcon icon={faArrowRight} className="icon"/>
-          <a href={props.link2}>{props.link2Text}</a>
-        </div>
+        {link1}
+        {link2}
         {props.children}
       </div>
     </div>
