@@ -37,7 +37,7 @@ export default function Footer(){
                 </ul>
                 <p id="copyright" className="row justify-content-center text-center container-fluid">
                     <small className="col-lg-12 col-md-12 col-sm-12 col-12">
-                        &copy; Katy Mollenkopf
+                        &copy; Katy Mollenkopf |<a href="https://github.com/Katy-M/portfolio/tree/master"> View site repository</a>
                     </small>
                 </p>
             </footer>

@@ -4,14 +4,14 @@ import Project from '../components/Project'
 const data = {
     aboutText: `Hello! My name is Katy Mollenkopf. I am a senior-level (fourth-year) student at Rochester Institute of Technology pursing a 
         Bachelor of Science degree in Game Design and Development. My primary skills lie in programming with C++, JavaScript, and C#, but I also have 
-        experience working in Unity (both 2D and 3D) and I am currently studying Unreal Engine. While I love to code (particularly 
+        experience working in Unity (both 2D and 3D) and I am currently studying Unreal Engine 4. While I love to code (particularly 
         for game development) I am especially drawn to game and level design – working with teams of programmers, artists, 
         and other designers to turn a common vision into a memorable experience for players. I have an insatiable desire to 
         grow my skillset and learn new technologies, and I am always looking for ways to improve and connect with others. 
         Below, I have posted links to my LinkedIn, GitHub, and NexusMods profiles, as well as my blog on level design, in addition to 
-        a contact page and a .pdf of my resume.`,
-    midbarTitle: "Published Levels and Mods for Existing Titles",
-    midbarProjects: [
+        a contact form and a .pdf of my resume.`,
+    topbarTitle: "Published Levels and Mods for Existing Titles",
+    topbarProjects: [
         <Project
             key='1'
             altText="Documentation for Brumal Passage"
@@ -48,8 +48,8 @@ const data = {
             link2Text="View design document"
         />,
     ],
-    topbarTitle: "Independent Projects (Unity and Otherwise)",
-    topbarProjects: [
+    midbarTitle: "Independent Projects (Unity and Otherwise)",
+    midbarProjects: [
         <Project
             key='4'
             title="Procedural Generation Tool (with Modular Assets)"
@@ -77,8 +77,8 @@ const data = {
             I independently completed this long-term project to not only better my programming skills, but also to practice 
             implementing and balancing game mechanics outside of my classes. Primary development took place August 2017 - May 2018."
             videoEmbed=""
-            link=""
-            linkText=""
+            link="https://github.com/Katy-M/Source-Vault-Prisoner"
+            linkText="View on GitHub"
             link2=""
             link2Text=""
         />,
