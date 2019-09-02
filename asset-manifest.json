@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.48e5fece.chunk.css",
-    "main.js": "/portfolio/static/js/main.3608225d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3608225d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4b6be904.chunk.css",
+    "main.js": "/portfolio/static/js/main.4f4951da.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4f4951da.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
     "static/css/2.266e55a5.chunk.css": "/portfolio/static/css/2.266e55a5.chunk.css",
-    "static/js/2.97e40f82.chunk.js": "/portfolio/static/js/2.97e40f82.chunk.js",
-    "static/js/2.97e40f82.chunk.js.map": "/portfolio/static/js/2.97e40f82.chunk.js.map",
+    "static/js/2.363880bd.chunk.js": "/portfolio/static/js/2.363880bd.chunk.js",
+    "static/js/2.363880bd.chunk.js.map": "/portfolio/static/js/2.363880bd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1919156965227ba494df533462ecf9dc.js": "/portfolio/precache-manifest.1919156965227ba494df533462ecf9dc.js",
+    "precache-manifest.6b717f8804fa182b976f6ccc0d29f05c.js": "/portfolio/precache-manifest.6b717f8804fa182b976f6ccc0d29f05c.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/portfolio/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.48e5fece.chunk.css.map": "/portfolio/static/css/main.48e5fece.chunk.css.map",
+    "static/css/main.4b6be904.chunk.css.map": "/portfolio/static/css/main.4b6be904.chunk.css.map",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.31591b39.jpg",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.2ee2732c.pdf"
+    "static/media/brumal-passage.jpg": "/portfolio/static/media/brumal-passage.04561853.jpg",
+    "static/media/fc-ldd.pdf": "/portfolio/static/media/fc-ldd.7dba126f.pdf",
+    "static/media/long-shadows.jpg": "/portfolio/static/media/long-shadows.691b80a5.jpg",
+    "static/media/modular-unity.jpg": "/portfolio/static/media/modular-unity.307fbd73.jpg",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.ec7b2756.pdf",
+    "static/media/sk-ldd.pdf": "/portfolio/static/media/sk-ldd.d326e5d4.pdf",
+    "static/media/vault.jpg": "/portfolio/static/media/vault.a7fdab28.jpg"
   }
 }
