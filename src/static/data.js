@@ -10,7 +10,7 @@ const data = {
         grow my skillset and learn new technologies, and I am always looking for ways to improve and connect with others. 
         Below, I have posted links to my LinkedIn, GitHub, and NexusMods profiles, as well as my blog on level design, in addition to 
         a contact form and a .pdf of my resume.`,
-    topbarTitle: "Published Levels and Mods for Existing Titles",
+    topbarTitle: "Published Levels and Mods",
     topbarProjects: [
         <Project
             key='1'
@@ -22,8 +22,7 @@ const data = {
                     practice implementing a space appropriate for radiant quests and hooking up any required functionality to do so through the editor.
                     I also experimented with optimally combining different asset kits to create an atmospheric dungeon
                     that fits well with the world. I created a five-part video series documenting my design process from the first prototype
-                    to the published level. The level can be added to a Steam copy of Skyrim through the Workshop, linked below.
-                    I primarily worked on this level in April 2019."
+                    to the published level. I primarily worked on this level in April 2019."
             videoEmbed="https://www.youtube.com/embed/videoseries?list=PLDFNbfZMUL-IMB0jancS_dxEMBOSEv44r;controls=0"
             link="https://steamcommunity.com/sharedfiles/filedetails/?id=1730964124"
             linkText="View on Steam Workshop"
