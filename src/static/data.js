@@ -47,10 +47,25 @@ const data = {
             link2Text="View design document"
         />,
     ],
-    midbarTitle: "Independent Projects (Unity and Otherwise)",
+    midbarTitle: "Highlighted Projects (Unity and Otherwise)",
     midbarProjects: [
         <Project
             key='4'
+            title='The Corridors of Chernobog'
+            img={require("../static/imgs/coc-layout.jpg")}
+            shortDesc="Unreal Engine 4"
+            fullDesc="Using Unreal Engine 4, I am designing a level from scratch based on a custom adaptation of
+            The Little Red Riding Hood fairytale narrative. I am doing this as part of my Real-Time Design class this semester.
+            Currently, I am in an early production phase of development, but I will update this section as 
+            I continue working and iterating on the project. Started early September 2019."
+            videoEmbed=""
+            link={require("../static/coc-ldd.pdf")}
+            linkText="View design document"
+            link2=""
+            link2Text=""
+        />,
+        <Project
+            key='5'
             title="Procedural Generation Tool (with Modular Assets)"
             img={require("../static/imgs/modular-unity.jpg")}
             shortDesc="Unity 3D"
@@ -66,7 +81,7 @@ const data = {
             link2Text=""
         />,
         <Project
-            key='5'
+            key='6'
             title="Vault Prisoner"
             img={require("../static/imgs/vault.jpg")}
             shortDesc="MonoGame (With Visual Studio 2015)"

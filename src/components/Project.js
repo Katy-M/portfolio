@@ -27,7 +27,7 @@ export default function Project(props){
             </button>
             {showModal && (
             <Modal onModalClose={() => setShowModal(false)}>
-                <Modal.Header>{props.title}</Modal.Header>
+                <Modal.Header className>{props.title}</Modal.Header>
                 <Modal.Body>
                     {media}
                     <p>{props.fullDesc}</p>

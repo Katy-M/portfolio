@@ -20,8 +20,8 @@ export default function Modal({ children, onModalClose }) {
   });
 
   return createPortal(
-    <div className="modal-container" role="dialog" aria-modal="true">
-      <div className="modal-content">
+    <div className="modal-container container-fluid" role="dialog" aria-modal="true">
+      <div className="modal-content container">
         <modalContext.Provider value={{ onModalClose }}>
           {children}
         </modalContext.Provider>
@@ -35,9 +35,9 @@ Modal.Header = function ModalHeader(props) {
   const { onModalClose } = useContext(modalContext);
 
   return (
-    <div className="modal-header">
+    <div className="modal-header row">
       {props.children}
-      <button className="cross-btn close" type="button" title="close modal" onClick={onModalClose}>
+      <button className="cross-btn close col-lg-2 col-md-2 col-sm-1 col-1" type="button" title="close modal" onClick={onModalClose}>
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
