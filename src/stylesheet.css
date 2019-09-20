@@ -125,7 +125,7 @@ body{
 }
 
 /*-------- RESPONSIVE ADJUSTMENTS --------*/
-/* @media only screen and (max-width: 680px) {
+@media only screen and (max-width: 680px) {
   iframe{
       width: 100%;
       height: 40%;
@@ -184,4 +184,4 @@ body{
     .modal-body{
         height: 60%;
     }
-} */
+}
