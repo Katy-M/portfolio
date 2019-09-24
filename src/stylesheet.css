@@ -2,6 +2,7 @@
 *{
     padding: 0.1%;
     color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
 }
 * a{
     color: #ffffff;
@@ -21,8 +22,12 @@ body{
     background-color: #1d1d1d;
     padding: 0.8rem;
 }
+
 .custom-header, .custom-footer{
     background-color: #1d1d1d;
+}
+h1 {
+    font-family: 'Audiowide', cursive;
 }
 
 /*-------- PROJECT SECTIONS --------*/
