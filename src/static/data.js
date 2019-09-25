@@ -84,7 +84,7 @@ const data = {
             key='6'
             title="Vault Prisoner"
             img={require("../static/imgs/vault.jpg")}
-            shortDesc="MonoGame (With Visual Studio 2015)"
+            shortDesc="MonoGame (With Visual Studio)"
             fullDesc="For this project, I fully designed and programmed (in C#) a timed Rougelike where the player must traverse five
             procedurally-generated maps to find two keys to escape a dangerous vault. The vault contains various hazards,
             such as traps and monsters, but there are also tools the player can find to increase their own chances of escape.
