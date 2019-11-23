@@ -66,22 +66,6 @@ const data = {
         />,
         <Project
             key='5'
-            title="Procedural Generation Tool (with Modular Assets)"
-            img={require("../static/imgs/modular-unity.jpg")}
-            shortDesc="Unity 3D"
-            fullDesc="Using Maya to model and import simple assests, I am working on coding an algorithm that will randomly generate a space
-            using the asset prefabs I assign to it and render that space in a Unity scene. My primary goal for this project is to practice
-            working with metrics and improve my skills in 3D modeling/texturing. I also aim to better understand procedural generation and
-            how I can modify the algorithm to better suit different gameplay or space purposes.
-            I am independently working on this project outside of my classes."
-            videoEmbed=""
-            link=""
-            linkText=""
-            link2=""
-            link2Text=""
-        />,
-        <Project
-            key='6'
             title="Vault Prisoner"
             img={require("../static/imgs/vault.jpg")}
             shortDesc="MonoGame (With Visual Studio)"
