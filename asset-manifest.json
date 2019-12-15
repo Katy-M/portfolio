@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d115df0a.chunk.css",
-    "main.js": "/portfolio/static/js/main.c25099dd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c25099dd.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/css/2.266e55a5.chunk.css": "/portfolio/static/css/2.266e55a5.chunk.css",
-    "static/js/2.363880bd.chunk.js": "/portfolio/static/js/2.363880bd.chunk.js",
-    "static/js/2.363880bd.chunk.js.map": "/portfolio/static/js/2.363880bd.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.df8e19f9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.df8e19f9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/portfolio/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.04ac8784.chunk.js": "/portfolio/static/js/2.04ac8784.chunk.js",
+    "static/js/2.04ac8784.chunk.js.map": "/portfolio/static/js/2.04ac8784.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8eb8f22c40a59568e61430f6a8ba12db.js": "/portfolio/precache-manifest.8eb8f22c40a59568e61430f6a8ba12db.js",
+    "precache-manifest.fd30bd847a2a79c726c3366774f4ec8d.js": "/portfolio/precache-manifest.fd30bd847a2a79c726c3366774f4ec8d.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/portfolio/static/css/2.266e55a5.chunk.css.map",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/portfolio/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.d115df0a.chunk.css.map": "/portfolio/static/css/main.d115df0a.chunk.css.map",
+    "static/js/2.04ac8784.chunk.js.LICENSE": "/portfolio/static/js/2.04ac8784.chunk.js.LICENSE",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.31591b39.jpg",
     "static/media/brumal-passage.jpg": "/portfolio/static/media/brumal-passage.04561853.jpg",
     "static/media/coc-layout.jpg": "/portfolio/static/media/coc-layout.ba634e62.jpg",
@@ -22,5 +23,12 @@
     "static/media/resume.pdf": "/portfolio/static/media/resume.b818f506.pdf",
     "static/media/sk-ldd.pdf": "/portfolio/static/media/sk-ldd.d326e5d4.pdf",
     "static/media/vault.jpg": "/portfolio/static/media/vault.a7fdab28.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.860ade9b.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.04ac8784.chunk.js",
+    "static/css/main.d115df0a.chunk.css",
+    "static/js/main.df8e19f9.chunk.js"
+  ]
 }
