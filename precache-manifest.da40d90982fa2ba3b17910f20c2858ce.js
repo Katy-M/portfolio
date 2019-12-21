@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5e27c8646f7c8f9ae28de9fbe208005",
+    "revision": "41ee05068e9988b8b798f26b2e24bfd2",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "0f763bf5bfdcc0adecdc",
+    "revision": "82d0404d777db4742797",
     "url": "/portfolio/static/css/main.d115df0a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.04ac8784.chunk.js.LICENSE"
   },
   {
-    "revision": "0f763bf5bfdcc0adecdc",
-    "url": "/portfolio/static/js/main.b269b8a3.chunk.js"
+    "revision": "82d0404d777db4742797",
+    "url": "/portfolio/static/js/main.da4a566a.chunk.js"
   },
   {
     "revision": "16c109c584451046bd84",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/brumal-passage.04561853.jpg"
   },
   {
-    "revision": "dd26cbe41eda20c7866e7bae423cb82f",
-    "url": "/portfolio/static/media/coc-ldd.dd26cbe4.pdf"
+    "revision": "21f153f306a4558f3354a5825462d253",
+    "url": "/portfolio/static/media/coc-ldd.21f153f3.pdf"
   },
   {
     "revision": "f2083811faa6d7ca81e1a28a93378c1f",
