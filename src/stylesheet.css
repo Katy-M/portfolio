@@ -35,6 +35,8 @@ h1 {
     background-color: #3d3d3d;
     border-top: 2px solid #be0000;
     padding-bottom: 2rem;
+    padding-left: 2%;
+    padding-right: 1%;
 }
 .projbar #title{
     margin-bottom: 1.2rem;
@@ -45,8 +47,10 @@ h1 {
 .project{
     background-color: #000000;
     border: 1px solid #000000;
-    margin: 1rem;
+    margin: 0.5rem;
     margin-top: 0%;
+    min-width: 15rem;
+    width: 26rem;
 }
 .project p{
     margin-top: 0.7em;
@@ -130,6 +134,39 @@ h1 {
 }
 
 /*-------- RESPONSIVE ADJUSTMENTS --------*/
+@media only screen and (max-width: 1778px) {
+    .project{
+        width: 23rem;
+    }
+}
+@media only screen and (max-width: 1562px) {
+    .project{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .project{
+        width: 34rem;
+    }
+    .projgroup{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    .project{
+        width: 28rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .project{
+        width: 24rem;
+    }
+}
+@media only screen and (max-width: 884px) {
+    .project{
+        width: 40rem;
+    }
+}
 @media only screen and (max-width: 550px) {
     .modal-content{
         width: 100%;

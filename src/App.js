@@ -10,7 +10,6 @@ export default function App() {
       <div>
         <Heading title='Katy Mollenkopf' />
         <Projbar title={data.topbarTitle} projects={data.topbarProjects}/>
-        <Projbar title={data.midbarTitle} projects={data.midbarProjects}/>
         <AboutBar />
         <Footer />
       </div>

@@ -12,35 +12,36 @@ const data = {
         a contact form and a .pdf of my resume.`,
     midbarTitle: "Published Levels and Mods",
     midbarProjects: [
-        <Project
-            key='1'
-            altText="Documentation for Brumal Passage"
-            title="Brumal Passage"
-            img={require("../static/imgs/brumal-passage.jpg")}
-            shortDesc="The Elder Scrolls V: Skyrim (Creation Kit)"
-            fullDesc="I prototyped and created this level for Skyrim using Adobe Photoshop (for the layout map) and the Creation Kit. One of my high-level goals was to practice implementing a space appropriate for radiant quests and hooking up any required functionality to do so through the editor. I also experimented with optimally combining different asset kits to create an atmospheric dungeon that fits well with the world. I created a five-part video series documenting my design process from the first prototype to the published level. I primarily worked on this level in April 2019."
-            videoEmbed="https://www.youtube.com/embed/videoseries?list=PLDFNbfZMUL-IMB0jancS_dxEMBOSEv44r;controls=0"
-            link="https://steamcommunity.com/sharedfiles/filedetails/?id=1730964124"
-            linkText="View on Steam Workshop"
-            link2={require("../static/sk-ldd.pdf")}
-            link2Text="View design document"
-        />,
-        <Project
-            key='2'
-            altText="Documentation for Long Shadows"
-            title="Long Shadows"
-            img={require("../static/imgs/long-shadows.jpg")}
-            shortDesc="Far Cry 5 (Arcade Editor)"
-            fullDesc="I planned and designed this level for Far Cry 5 using Adobe Photoshop (for mapping) and the Arcade Editor. I designed this level to practice using light in guiding the player and creating a space that provides options for different playstyles. I created a three-part video series documenting my process and I've included my design document as well, which includes my layout map. The map can be played through Far Cry 5's Arcade mode on the PC. Development spanned late February - March 2019."
-            videoEmbed="https://www.youtube.com/embed/videoseries?list=PLDFNbfZMUL-K10leAH0-QguDcZGIlbN8z&amp;controls=0"
-            link="https://far-cry-arcade.ubi.com/en-us/pc/map/5c8e86fea7e139219867b460"
-            linkText="View on Far Cry Arcade (requires user login)"
-            link2={require("../static/fc-ldd.pdf")}
-            link2Text="View design document"
-        />,
+
     ],
-    topbarTitle: "Highlighted Projects (Unreal Engine and Others)",
+    topbarTitle: "Highlighted Games and Levels",
     topbarProjects: [
+        <Project
+        key='2'
+        altText="Documentation for Long Shadows"
+        title="Long Shadows"
+        img={require("../static/imgs/long-shadows.jpg")}
+        shortDesc="Far Cry 5 (Arcade Editor)"
+        fullDesc="I planned and designed this level for Far Cry 5 using Adobe Photoshop (for mapping) and the Arcade Editor. I designed this level to practice using light in guiding the player and creating a space that provides options for different playstyles. I created a three-part video series documenting my process and I've included my design document as well, which includes my layout map. The map can be played through Far Cry 5's Arcade mode on the PC. Development spanned late February - March 2019."
+        videoEmbed="https://www.youtube.com/embed/videoseries?list=PLDFNbfZMUL-K10leAH0-QguDcZGIlbN8z&amp;controls=0"
+        link="https://far-cry-arcade.ubi.com/en-us/pc/map/5c8e86fea7e139219867b460"
+        linkText="View on Far Cry Arcade (requires user login)"
+        link2={require("../static/fc-ldd.pdf")}
+        link2Text="View design document"
+    />,
+        <Project
+        key='1'
+        altText="Documentation for Brumal Passage"
+        title="Brumal Passage"
+        img={require("../static/imgs/brumal-passage.jpg")}
+        shortDesc="The Elder Scrolls V: Skyrim (Creation Kit)"
+        fullDesc="I prototyped and created this level for Skyrim using Adobe Photoshop (for the layout map) and the Creation Kit. One of my high-level goals was to practice implementing a space appropriate for radiant quests and hooking up any required functionality to do so through the editor. I also experimented with optimally combining different asset kits to create an atmospheric dungeon that fits well with the world. I created a five-part video series documenting my design process from the first prototype to the published level. I primarily worked on this level in April 2019."
+        videoEmbed="https://www.youtube.com/embed/videoseries?list=PLDFNbfZMUL-IMB0jancS_dxEMBOSEv44r;controls=0"
+        link="https://steamcommunity.com/sharedfiles/filedetails/?id=1730964124"
+        linkText="View on Steam Workshop"
+        link2={require("../static/sk-ldd.pdf")}
+        link2Text="View design document"
+    />,
         <Project
             key='4'
             title='The Corridors of Chernobog'
