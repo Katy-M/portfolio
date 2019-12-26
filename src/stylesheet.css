@@ -28,15 +28,15 @@ body{
 }
 h1 {
     font-family: 'Audiowide', cursive;
+    font-size: 2.2rem;
 }
 
 /*-------- PROJECT SECTIONS --------*/
 .projbar{
     background-color: #3d3d3d;
-    border-top: 2px solid #be0000;
     padding-bottom: 2rem;
-    padding-left: 2%;
-    padding-right: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .projbar #title{
     margin-bottom: 1.2rem;
@@ -47,10 +47,15 @@ h1 {
 .project{
     background-color: #000000;
     border: 1px solid #000000;
+    border-radius: 8px;
     margin: 0.5rem;
     margin-top: 0%;
     min-width: 15rem;
     width: 26rem;
+}
+.wrapper {
+    border: 5px outset #be0000;
+    border-radius: 8px;
 }
 .project p{
     margin-top: 0.7em;
@@ -92,7 +97,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
 }
 .modal-content {
@@ -134,17 +139,17 @@ h1 {
 }
 
 /*-------- RESPONSIVE ADJUSTMENTS --------*/
-@media only screen and (max-width: 1778px) {
+@media only screen and (max-width: 1820px) {
     .project{
         width: 23rem;
     }
 }
-@media only screen and (max-width: 1562px) {
+@media only screen and (max-width: 1620px) {
     .project{
         width: 20rem;
     }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1415px) {
     .project{
         width: 34rem;
     }
@@ -152,7 +157,7 @@ h1 {
         justify-content: center;
     }
 }
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1190px) {
     .project{
         width: 28rem;
     }

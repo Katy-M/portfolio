@@ -15,16 +15,27 @@ export default function Project(props){
         allowFullScreen>
     </iframe> : <img src={props.img} alt={props.title}/>
 
+    // put a border around the featured project
+    const item = (props.featured === 'true') ?
+    <button
+        className="justify-content-center text-center project wrapper"
+        onClick={(() => setShowModal(!showModal))}>
+            <h3>{props.title}</h3>
+            <img src={props.img} alt={props.title}></img>
+            <p>{props.shortDesc}</p>
+    </button>
+         : 
+    <button
+        className="justify-content-center text-center project"
+        onClick={(() => setShowModal(!showModal))}>
+            <h3>{props.title}</h3>
+            <img src={props.img} alt={props.title}></img>
+            <p>{props.shortDesc}</p>
+    </button>
+
     return(
         <React.Fragment>
-            <button
-                className="justify-content-center text-center
-                            project"
-                onClick={(() => setShowModal(!showModal))}>
-                    <h3>{props.title}</h3>
-                    <img src={props.img} alt={props.title}></img>
-                    <p>{props.shortDesc}</p>
-            </button>
+            {item}
             {showModal && (
             <Modal onModalClose={() => setShowModal(false)}>
                 <Modal.Header className>{props.title}</Modal.Header>
