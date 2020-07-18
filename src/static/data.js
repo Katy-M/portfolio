@@ -2,8 +2,8 @@ import React from 'react';
 import Project from '../components/Project'
 
 const data = {
-    aboutText: `Hello! My name is Katy Mollenkopf. I am a senior-level (fourth-year) student at Rochester Institute of Technology pursuing a 
-        Bachelor of Science degree in Game Design and Development. My primary skills lie in programming with C++, JavaScript, and C#, but I also have 
+    aboutText: `Hello! My name is Katy Mollenkopf. I will graduate college with a bachelor's degree in game development by the end of Summer 2020. 
+        My primary skills lie in programming with C++, JavaScript, and C#, but I also have 
         experience working in Unity (both 2D and 3D) and I am currently studying Unreal Engine 4. While I love to code (particularly 
         for game development) I am especially drawn to game and level design – working with teams of programmers, artists, 
         and other designers to turn a common vision into a memorable experience for players. I have an insatiable desire to 
