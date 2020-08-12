@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.37e55ccd.chunk.css",
-    "main.js": "/portfolio/static/js/main.1662096c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1662096c.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
-    "static/css/2.b0bb7f2c.chunk.css": "/portfolio/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.04ac8784.chunk.js": "/portfolio/static/js/2.04ac8784.chunk.js",
-    "static/js/2.04ac8784.chunk.js.map": "/portfolio/static/js/2.04ac8784.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.6a632369.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6a632369.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.11829350.chunk.css": "/portfolio/static/css/2.11829350.chunk.css",
+    "static/js/2.c59d9ad1.chunk.js": "/portfolio/static/js/2.c59d9ad1.chunk.js",
+    "static/js/2.c59d9ad1.chunk.js.map": "/portfolio/static/js/2.c59d9ad1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8efeb5578c5eb60c4f07c80bfae91346.js": "/portfolio/precache-manifest.8efeb5578c5eb60c4f07c80bfae91346.js",
+    "precache-manifest.2aefdc98ddfd0cfd71269b1a7ff500a9.js": "/portfolio/precache-manifest.2aefdc98ddfd0cfd71269b1a7ff500a9.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.b0bb7f2c.chunk.css.map": "/portfolio/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
     "static/css/main.37e55ccd.chunk.css.map": "/portfolio/static/css/main.37e55ccd.chunk.css.map",
-    "static/js/2.04ac8784.chunk.js.LICENSE": "/portfolio/static/js/2.04ac8784.chunk.js.LICENSE",
+    "static/js/2.c59d9ad1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c59d9ad1.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.31591b39.jpg",
     "static/media/brumal-passage.jpg": "/portfolio/static/media/brumal-passage.04561853.jpg",
     "static/media/coc-ldd.pdf": "/portfolio/static/media/coc-ldd.21f153f3.pdf",
@@ -25,10 +25,10 @@
     "static/media/vault.jpg": "/portfolio/static/media/vault.a7fdab28.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.860ade9b.js",
-    "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.04ac8784.chunk.js",
+    "static/js/runtime-main.209c2d7e.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.c59d9ad1.chunk.js",
     "static/css/main.37e55ccd.chunk.css",
-    "static/js/main.1662096c.chunk.js"
+    "static/js/main.6a632369.chunk.js"
   ]
 }
