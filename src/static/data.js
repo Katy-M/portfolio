@@ -4,8 +4,8 @@ import Project from '../components/Project'
 const data = {
     aboutText: `Hello! My name is Katy Mollenkopf. I am currently working for Epic Games as a level design intern. 
         I will graduate college with a bachelor's degree in game development by the end of Summer 2020.
-        My primary skills lie in programming with C++, JavaScript, and C#, but I also have 
-        experience working in Unity (both 2D and 3D) and I am currently studying Unreal Engine 4. While I love to code (particularly 
+        My primary skills lie in working with Unreal Engine 4 and Unity (both 2D and 3D), but I also have 
+        experience programming with C++, JavaScript, and C#. While I love to code (particularly 
         for game development) I am especially drawn to game and level design – working with teams of programmers, artists, 
         and other designers to turn a common vision into a memorable experience for players. I have an insatiable desire to 
         grow my skillset and learn new technologies, and I am always looking for ways to improve and connect with others. 
