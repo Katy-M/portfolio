@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.67e618aa.chunk.css",
+    "main.css": "/portfolio/static/css/main.012860bf.chunk.css",
     "main.js": "/portfolio/static/js/main.239e41e4.chunk.js",
     "main.js.map": "/portfolio/static/js/main.239e41e4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
@@ -9,10 +9,10 @@
     "static/js/2.c59d9ad1.chunk.js": "/portfolio/static/js/2.c59d9ad1.chunk.js",
     "static/js/2.c59d9ad1.chunk.js.map": "/portfolio/static/js/2.c59d9ad1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f8b626f3e0bfb5ca42e35cb0c9c4c015.js": "/portfolio/precache-manifest.f8b626f3e0bfb5ca42e35cb0c9c4c015.js",
+    "precache-manifest.7658523a5cbb32bd5d6c81567470f54b.js": "/portfolio/precache-manifest.7658523a5cbb32bd5d6c81567470f54b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
-    "static/css/main.67e618aa.chunk.css.map": "/portfolio/static/css/main.67e618aa.chunk.css.map",
+    "static/css/main.012860bf.chunk.css.map": "/portfolio/static/css/main.012860bf.chunk.css.map",
     "static/js/2.c59d9ad1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c59d9ad1.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.31591b39.jpg",
     "static/media/brumal-passage.jpg": "/portfolio/static/media/brumal-passage.04561853.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.c59d9ad1.chunk.js",
-    "static/css/main.67e618aa.chunk.css",
+    "static/css/main.012860bf.chunk.css",
     "static/js/main.239e41e4.chunk.js"
   ]
 }
