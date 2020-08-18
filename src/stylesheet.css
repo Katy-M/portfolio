@@ -53,10 +53,6 @@ h1 {
     min-width: 15rem;
     width: 26rem;
 }
-.wrapper {
-    border: 5px outset #be0000;
-    border-radius: 8px;
-}
 .project p{
     margin-top: 0.7em;
 }
@@ -193,18 +189,18 @@ h1 {
     }
 }
 
-@media only screen and (max-height: 580px) {
+@media only screen and (max-height: 670px) {
     .modal-content{
         height: 100%;
     }
     .modal-body p, .modal-footer .link{
-        font-size: 11px;
+        font-size: 14px;
     }
     .modal-content .close-btn{
-        font-size: 11px;
+        font-size: 14px;
     }
     .modal-header{
-        font-size: 16px;
+        font-size: 20px;
         padding-bottom: 0%;
     }
     iframe{
