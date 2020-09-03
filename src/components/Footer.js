@@ -31,9 +31,6 @@ export default function Footer(){
                             <FontAwesomeIcon icon={faWordpress}/>
                         </a>
                     </li>
-                    <li className="col-lg-2 col-md-2 col-sm-2">
-                        <a href={require("../static/resume.pdf")}>Resume</a>
-                    </li>
                 </ul>
                 <p id="copyright" className="row justify-content-center text-center container-fluid">
                     <small className="col-lg-12 col-md-12 col-sm-12 col-12">
