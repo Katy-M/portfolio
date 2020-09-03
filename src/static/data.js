@@ -10,7 +10,7 @@ const data = {
         and other designers to turn a common vision into a memorable experience for players. I have an insatiable desire to 
         grow my skillset and learn new technologies, and I am always looking for ways to improve and connect with others. 
         Below, I have posted links to my LinkedIn, GitHub, and NexusMods profiles, as well as my blog on level design, in addition to 
-        a contact form and a .pdf of my resume.`,
+        a Google Form you may use to contact me.`,
     topbarTitle: "Highlighted Games and Levels",
     topbarProjects: [
         <Project
